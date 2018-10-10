@@ -19,7 +19,6 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
   <link href="css/stylesheet.css" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
   <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
 </head>
 
@@ -419,8 +418,8 @@
                   <h2 class="text-uppercase">Insomnia Gaming Festival</h2>
                   <p class="item-intro text-muted">Motion Graphics Designer for live show content</p>
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe width="1900" height="712" src="https://www.youtube.com/embed/Ef2wBVLfzdI" frameborder="0"
-                      allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div><iframe width="1900" height="712" src="https://www.youtube.com/embed/Ef2wBVLfzdI" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
                   </div><br>
                   <p>In 2016 I volunteered for the Multiplay Insomnia Gaming Festival 58 in Birmingham. I was placed
                     within the video production company employed for the festival, working on various pieces of content
@@ -509,46 +508,45 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <h2 class="text-uppercase">Staircase</h2>
-                  <iframe frameborder="0" class="juxtapose" width="100%" height="1024" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=6e2ca53c-ccd6-11e8-9dba-0edaf8f81e27"></iframe>
+                  <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+                  <iframe frameborder="0" class="juxtapose" width="80%" height="30%" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=84a3c812-ccd7-11e8-9dba-0edaf8f81e27"></iframe>
+                  <p>A photorealistic 3D scene created in Maya, based on a <a href="images/ref.jpg">reference</a>
+                    image.</p>
+
                 </div>
-
-                <p>A photorealistic 3D scene created in Maya, based on a <a href="images/ref.jpg">reference</a>
-                  image.</p>
-
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/agency.min.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script> $("figure").mouseleave(
-      function () {
-        $(this).removeClass("hover");
-      }
-    );</script>
-  <script>
-    var docWidth = document.documentElement.offsetWidth;
-    [].forEach.call(
-      document.querySelectorAll('*'),
-      function (el) {
-        if (el.offsetWidth > docWidth) {
-          console.log(el);
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/agency.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script> $("figure").mouseleave(
+        function () {
+          $(this).removeClass("hover");
         }
-      }
-    );</script>
+      );</script>
+    <script>
+      var docWidth = document.documentElement.offsetWidth;
+      [].forEach.call(
+        document.querySelectorAll('*'),
+        function (el) {
+          if (el.offsetWidth > docWidth) {
+            console.log(el);
+          }
+        }
+      );</script>
   </div>
 </body>
 
