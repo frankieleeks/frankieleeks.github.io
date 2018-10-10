@@ -76,6 +76,30 @@ figure.snip1104 a {
   position: absolute;
 }
 
+figure.snip1104.red {
+  background: #b12b2b;
+}
+
+figure.snip1104.red h2{
+  background: #c24747;
+}
+
+figure.snip1104.black {
+  background: #181717;
+}
+
+figure.snip1104.black h2{
+  background: #000000;
+}
+
+figure.snip1104.sea {
+  background: #1295b6;
+}
+
+figure.snip1104.sea h2{
+  background: #0b77b6;
+}
+
 figure.snip1104.blue {
   background: #123851;
 }
@@ -93,11 +117,11 @@ figure.snip1104.green h2 {
 }
 
 figure.snip1104.orange {
-  background: #299ec2;
+  background: #f1953e;
 }
 
 figure.snip1104.orange h2 {
-  background: #e99f29;
+  background: #d66f0f;
 }
 
 figure.snip1104:hover img,
@@ -146,9 +170,9 @@ figure.snip1104.hover:before {
   overflow: hidden;
 }
 .slidingVertical span {
-  animation: topToBottom 12s linear infinite 0s;
-  -ms-animation: topToBottom 12s linear infinite 0s;
-  -webkit-animation: topToBottom 12s linear infinite 0s;
+  animation: topToBottom 12.5s linear infinite 0s;
+  -ms-animation: topToBottom 12.5s linear infinite 0s;
+  -webkit-animation: topToBottom 12.5s linear infinite 0s;
   color: #e7c75e;
   opacity: 0;
   position: absolute;
