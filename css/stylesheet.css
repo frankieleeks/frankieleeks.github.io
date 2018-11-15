@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400);
 
+.twoplayer{
+  display: block;
+  float: left;
+  width: 100%;
+}
+
 figure.snip1104 {
   font-family: "Raleway", Arial, sans-serif;
   position: relative;
