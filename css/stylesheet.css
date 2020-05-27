@@ -130,6 +130,31 @@ figure.snip1104.orange h2 {
   background: #d66f0f;
 }
 
+figure.snip1104.lorange h2 {
+  background: #FEC000;
+}
+
+figure.snip1104.lblue h2 {
+  background: #3199D5;
+}
+
+figure.snip1104.lpurple h2 {
+  background: #383895;
+}
+
+figure.snip1104.lyellow h2 {
+  background: #e0e15e;
+}
+
+figure.snip1104.lgray h2 {
+  background: #606060;
+}
+
+figure.snip1104.lgreen h2 {
+  background: #76c556;
+}
+
+
 figure.snip1104:hover img,
 figure.snip1104.hover img {
   opacity: 1;
